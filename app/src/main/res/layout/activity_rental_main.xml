@@ -29,7 +29,6 @@
         android:layout_height="wrap_content"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_gravity="center"
-        android:background=""
         android:orientation="horizontal">
 
         <Button
@@ -46,6 +45,7 @@
             android:id="@+id/rentalButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#9370DB"
             android:text="rental"/>
         <Button
             android:id="@+id/myButton"

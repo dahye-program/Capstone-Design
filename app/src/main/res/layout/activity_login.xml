@@ -29,7 +29,6 @@
         android:layout_height="wrap_content"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_gravity="center"
-        android:background=""
         android:orientation="horizontal">
 
         <Button
@@ -41,6 +40,7 @@
             android:id="@+id/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="#9370DB"
             android:text="login"/>
         <Button
             android:id="@+id/rentalButton"
@@ -54,4 +54,51 @@
             android:text="My"/>
     </LinearLayout>
 
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/editUserIDforlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID를 입력하세요"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PW:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/editUserPwforlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호를 입력하세요"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/loginCheckButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="확인"
+        android:textSize="20dp"/>
 </LinearLayout>
